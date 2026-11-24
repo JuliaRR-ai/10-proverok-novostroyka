@@ -1,0 +1,692 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>10 обязательных проверок при покупке квартиры в новостройке — Юлия Юмина</title>
+<meta name="description" content="Чек-лист на 40 пунктов: как проверить застройщика, договор, окружение, ипотеку и планировку до покупки квартиры в новостройке. Юлия Юмина, подбор и проверка новостроек Москвы.">
+<meta name="theme-color" content="#F6EFEA">
+<meta property="og:type" content="website">
+<meta property="og:title" content="10 обязательных проверок при покупке квартиры в новостройке">
+<meta property="og:description" content="Интерактивный чек-лист на 40 пунктов от Юлии Юминой.">
+<meta property="og:image" content="https://juliarr-ai.github.io/10-proverok-novostroyka/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://juliarr-ai.github.io/10-proverok-novostroyka/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%236B1E2B'/%3E%3Ctext x='32' y='44' font-size='34' text-anchor='middle' fill='%23F8EDE8' font-family='Georgia,serif'%3E10%3C/text%3E%3C/svg%3E">
+
+<link rel="stylesheet" href="fonts.css">
+<style>
+/* Layout: слои-экраны. Старт → «Изучить» → 10 шагов по одному → результат. Крупная типографика, бордо только как акцент */
+:root{
+  --bg:#F6EFEA; --surface:#FCF9F6; --blush:#EBDAD4; --sage:#DCE2D6; --line:#DDCFC6;
+  --ink:#2B1E21; --muted:#74646A;
+  --accent:#6B1E2B; --accent-text:#6B1E2B; --on-accent:#FBF3EF;
+  --band:#6B1E2B; --on-band:#F8EDE8;
+  --serif:'Cormorant Garamond','Times New Roman',serif;
+  --sans:'Manrope',system-ui,-apple-system,'Segoe UI',sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#1C1517; --surface:#251C1F; --blush:#32242A; --sage:#232A24; --line:#3A2D31;
+  --ink:#F1E8E3; --muted:#B4A3A5; --accent:#8E2C3C; --accent-text:#E08B98; --on-accent:#FBF3EF;
+  --band:#4B1722; --on-band:#F8EDE8; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#1C1517; --surface:#251C1F; --blush:#32242A; --sage:#232A24; --line:#3A2D31;
+  --ink:#F1E8E3; --muted:#B4A3A5; --accent:#8E2C3C; --accent-text:#E08B98; --on-accent:#FBF3EF;
+  --band:#4B1722; --on-band:#F8EDE8; color-scheme:dark}
+
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth}
+body{font-variant-numeric:lining-nums;font-feature-settings:'lnum' 1;margin:0;background:var(--bg);color:var(--ink);font:400 18px/1.65 var(--sans);-webkit-font-smoothing:antialiased;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:60}
+/* зерно */
+body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:70;opacity:.05;mix-blend-mode:multiply;
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='160' height='160' filter='url(%23n)'/></svg>")}
+.wrap{max-width:1240px;margin:0 auto}
+h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.02;margin:0;text-wrap:balance;letter-spacing:-.015em}
+p{margin:0 0 1em}
+a{color:var(--accent-text);text-underline-offset:3px}
+:focus-visible{outline:2px solid var(--accent-text);outline-offset:3px;border-radius:6px}
+.eyebrow{font:700 12px/1.2 var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--accent-text)}
+
+.btn{display:inline-flex;align-items:center;gap:14px;background:var(--accent);color:var(--on-accent);font:700 16px/1 var(--sans);
+  padding:20px 30px;border-radius:999px;text-decoration:none;border:0;cursor:pointer;transition:transform .25s,filter .25s,box-shadow .25s}
+.btn:hover{filter:brightness(1.12);transform:translateY(-2px);box-shadow:0 14px 30px -14px var(--accent)}
+.btn .ar{display:inline-block;transition:transform .25s}.btn:hover .ar{transform:translateX(5px)}
+.btn.ghost{background:transparent;color:var(--accent-text);box-shadow:inset 0 0 0 1.5px var(--accent-text)}
+.btn.sm{padding:13px 20px;font-size:14px}
+
+/* header */
+.hd{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:color-mix(in srgb,var(--bg) 88%,transparent);
+  backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);margin-inline:calc(-1*max(16px,env(safe-area-inset-left,0px)));padding-inline:max(16px,env(safe-area-inset-left,0px))}
+.hd .in{max-width:1240px;margin:0 auto;display:flex;align-items:center;gap:22px;padding-block:14px}
+.brand{font:500 26px/1 var(--serif);text-decoration:none;color:var(--ink);white-space:nowrap}
+.segs{flex:1;display:flex;gap:5px;min-width:0}
+.seg{flex:1;height:26px;position:relative;display:block;border:0;background:none;padding:0;cursor:pointer}
+.seg::before{content:"";position:absolute;left:0;right:0;top:11px;height:4px;border-radius:4px;background:var(--line)}
+.seg i{position:absolute;left:0;top:11px;height:4px;border-radius:4px;background:var(--accent);width:0;transition:width .35s}
+.seg.cur::before{background:color-mix(in srgb,var(--accent-text) 35%,var(--line));top:10px;height:6px}
+.seg.cur i{top:10px;height:6px}
+.hd .cnt{font-size:14px;white-space:nowrap;font-variant-numeric:tabular-nums;color:var(--muted)}
+.hd .cnt b{font:700 18px/1 var(--sans);color:var(--accent-text)}
+.menu-btn{background:none;border:0;cursor:pointer;color:var(--ink);font:600 14px var(--sans);display:flex;gap:10px;align-items:center;padding:8px 4px}
+.menu-btn span{display:block;width:22px;height:2px;background:currentColor;box-shadow:0 7px 0 currentColor,0 -7px 0 currentColor}
+body.is-start .segs,body.is-start .cnt,body.is-start .menu-btn{display:none}
+body:not(.is-start) .tg-top{display:none}
+body.is-start .hd .in{justify-content:space-between}
+
+/* drawer */
+.drawer{position:fixed;inset:0;z-index:80;display:flex;justify-content:flex-end;background:rgba(20,10,12,.45)}
+.drawer .panel{width:min(440px,100%);height:100%;overflow:auto;background:var(--surface);padding:max(28px,env(safe-area-inset-top,0px)) 28px 40px;animation:slideL .35s cubic-bezier(.2,.8,.2,1)}
+.drawer h3{font-size:34px;margin:6px 0 20px}
+.drawer a.row{display:grid;grid-template-columns:34px 1fr auto;gap:14px;align-items:baseline;padding:13px 0;border-top:1px solid var(--line);text-decoration:none;color:var(--ink);font-size:15px;line-height:1.4}
+.drawer a.row b{font:500 26px/1 var(--serif);color:var(--accent-text)}
+.drawer a.row em{font:600 12px var(--sans);font-style:normal;color:var(--muted);white-space:nowrap}
+.drawer .x{float:right;background:none;border:0;font-size:30px;line-height:1;cursor:pointer;color:var(--ink)}
+@keyframes slideL{from{transform:translateX(40px);opacity:0}to{transform:none;opacity:1}}
+
+/* layers */
+.layer{animation:enter .6s cubic-bezier(.2,.8,.2,1)}
+@keyframes enter{from{opacity:0;transform:translateY(26px)}to{opacity:1;transform:none}}
+
+/* start */
+.start-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:clamp(30px,5vw,80px);align-items:center;padding-block:36px 64px}
+.start h1{font-size:clamp(40px,5.6vw,84px);margin:22px 0 26px}
+.start h1 .ten{display:block;font-size:clamp(120px,19vw,280px);line-height:.8;color:transparent;-webkit-text-stroke:1.5px var(--accent-text);margin-bottom:.06em;font-weight:400}
+.start h1 em{color:var(--accent-text);font-style:italic}
+.lead{font-size:20px;color:var(--muted);max-width:30em}
+.acts{display:flex;gap:14px;flex-wrap:wrap;margin-top:34px;align-items:center}
+.minis{display:flex;gap:34px;margin-top:46px;flex-wrap:wrap}
+.minis b{display:block;font:500 40px/1 var(--serif);color:var(--accent-text)}
+.minis span{font-size:13px;color:var(--muted);line-height:1.3;display:block;margin-top:4px}
+.stack{position:relative;aspect-ratio:4/5.3;max-width:520px;margin-inline:auto;width:100%}
+.stack::before,.stack::after{content:"";position:absolute;inset:0;border-radius:999px 999px 24px 24px;border:1.5px solid var(--accent-text);opacity:.5}
+.stack::before{transform:translate(-18px,16px)}
+.stack::after{transform:translate(-36px,32px);opacity:.25}
+.stack .photo{position:absolute;inset:0;border-radius:999px 999px 24px 24px;overflow:hidden;background:var(--blush);z-index:1}
+.stack .photo img{width:100%;height:100%;object-fit:cover;object-position:50% 28%;display:block}
+.badge{position:absolute;right:-26px;top:10%;width:120px;height:120px;z-index:3;border-radius:50%;background:var(--bg);display:grid;place-items:center;box-shadow:0 0 0 1px var(--line)}
+.badge svg{width:100%;height:100%;animation:spin 22s linear infinite;color:var(--accent-text)}
+.badge i{position:absolute;font:500 30px/1 var(--serif);font-style:normal;color:var(--accent-text)}
+@keyframes spin{to{transform:rotate(360deg)}}
+.float{position:absolute;left:-14px;bottom:8%;z-index:3;background:var(--surface);border-radius:18px;padding:16px 20px;box-shadow:0 18px 40px -20px rgba(0,0,0,.4);font-size:13px;line-height:1.3;color:var(--muted)}
+.float b{display:block;font:500 30px/1 var(--serif);color:var(--accent-text);margin-bottom:2px}
+.marq{overflow:hidden;background:var(--band);color:var(--on-band);margin-inline:calc(-1*max(16px,env(safe-area-inset-left,0px)));padding-block:20px}
+.marq .track{display:flex;width:max-content;animation:mq 46s linear infinite}
+.marq span{font:italic 400 34px/1 var(--serif);white-space:nowrap;padding-right:34px}
+.marq span::after{content:"✦";font:400 16px var(--sans);margin-left:34px;opacity:.6}
+@keyframes mq{to{transform:translateX(-50%)}}
+
+/* how */
+.how{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(28px,6vw,90px);align-items:center;padding-block:56px 72px}
+.how .ph{border-radius:24px;overflow:hidden;aspect-ratio:4/5;background:var(--blush)}
+.how .ph img{width:100%;height:100%;object-fit:cover;object-position:50% 25%;display:block}
+.how h2{font-size:clamp(38px,5vw,68px);margin:16px 0 30px}
+.steps{list-style:none;margin:0 0 36px;padding:0;display:grid;gap:0;counter-reset:s}
+.steps li{counter-increment:s;display:grid;grid-template-columns:56px 1fr;gap:12px;padding:18px 0;border-top:1px solid var(--line)}
+.steps li:last-child{border-bottom:1px solid var(--line)}
+.steps li::before{content:counter(s);font:400 44px/1 var(--serif);color:var(--accent-text)}
+
+/* check step */
+.step{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(30px,6vw,100px);padding-block:44px 72px}
+.side{position:sticky;top:96px;align-self:start}
+.num{font:400 clamp(150px,19vw,290px)/.78 var(--serif);color:transparent;-webkit-text-stroke:1.5px var(--accent-text);transition:color .5s;margin-bottom:.1em;font-variant-numeric:lining-nums}
+.step.done .num{color:var(--accent-text)}
+.side h2{font-size:clamp(32px,3.6vw,52px);margin:18px 0 0}
+.sub{font:italic 400 24px/1.3 var(--serif);color:var(--muted);margin-top:14px}
+.prog{margin-top:26px;font-size:13px;color:var(--muted)}
+.prog b{color:var(--accent-text)}
+.main{min-width:0}
+.shot{margin:0 0 32px;border-radius:24px;overflow:hidden;aspect-ratio:4/3;background:var(--blush)}
+.shot img{width:100%;height:100%;object-fit:cover;display:block}
+.shot figcaption{display:none}
+.shot.two{display:grid;grid-template-columns:1fr 1fr;gap:12px;aspect-ratio:auto;background:none;border-radius:0;overflow:visible}
+.shot.two img{aspect-ratio:3/4;border-radius:22px;background:var(--blush)}
+.intro{font-size:20px;line-height:1.6;color:var(--ink);margin:0 0 34px}
+.intro p{margin:0 0 .8em}.intro p:last-child{margin:0}
+.label{font:700 12px/1.2 var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--accent-text);margin:0 0 14px}
+.checks{list-style:none;margin:0 0 44px;padding:0}
+.checks li{border-top:1px solid var(--line)}
+.checks li:last-child{border-bottom:1px solid var(--line)}
+.checks label{display:grid;grid-template-columns:30px 1fr;gap:18px;padding:20px 6px;cursor:pointer;font-size:18px;line-height:1.55;transition:background .2s}
+.checks label:hover{background:color-mix(in srgb,var(--blush) 45%,transparent)}
+.checks input{appearance:none;-webkit-appearance:none;width:28px;height:28px;margin:1px 0 0;border:1.5px solid var(--muted);border-radius:50%;background:transparent;display:grid;place-content:center;cursor:pointer;transition:.2s}
+.checks input::after{content:"";width:12px;height:7px;border-left:2.5px solid var(--on-accent);border-bottom:2.5px solid var(--on-accent);transform:rotate(-45deg) scale(0);margin-top:-3px;transition:transform .2s}
+.checks input:checked{background:var(--accent);border-color:var(--accent)}
+.checks input:checked::after{transform:rotate(-45deg) scale(1)}
+.checks input:checked + span{color:var(--muted);text-decoration:line-through;text-decoration-color:color-mix(in srgb,var(--muted) 50%,transparent)}
+.story{background:var(--blush);border-radius:26px;padding:clamp(24px,3.4vw,42px);margin-bottom:28px}
+.story.alt{background:var(--sage)}
+.story p{font-size:17px}
+.story .more{display:grid;grid-template-rows:0fr;transition:grid-template-rows .45s}
+.story .more>div{overflow:hidden;min-height:0}
+.story.open .more{grid-template-rows:1fr}
+.story .tog{background:none;border:0;padding:0;margin-top:4px;color:var(--accent-text);font:700 14px var(--sans);cursor:pointer;display:inline-flex;gap:8px;align-items:center}
+.story .tog::after{content:"↓";transition:transform .3s}.story.open .tog::after{transform:rotate(180deg)}
+.cta{display:flex;gap:18px;align-items:center;flex-wrap:wrap;background:var(--surface);border-radius:22px;padding:22px 24px;margin-bottom:28px;box-shadow:inset 0 0 0 1px var(--line)}
+.cta p{margin:0;flex:1 1 240px;font-size:16px}
+.nav{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;margin-top:44px;padding-top:28px;border-top:1px solid var(--line)}
+.nav .btn.ghost{padding:18px 26px}
+
+/* result */
+.res{background:var(--band);color:var(--on-band);border-radius:36px;padding:clamp(28px,6vw,84px);margin-block:40px 20px}
+.res .eyebrow{color:color-mix(in srgb,var(--on-band) 70%,transparent)}
+.res h2{font-size:clamp(40px,6vw,88px);margin:16px 0 8px}
+.score{display:flex;align-items:baseline;gap:18px;flex-wrap:wrap;margin:8px 0 30px}
+.score b{font:400 clamp(110px,20vw,260px)/.9 var(--serif);font-variant-numeric:lining-nums}
+.score span{font-size:22px;opacity:.8}
+.rbar{height:6px;background:rgba(255,255,255,.18);border-radius:6px;overflow:hidden;margin-bottom:40px}
+.rbar i{display:block;height:100%;width:0;background:var(--on-band);transition:width .6s}
+.tiers{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.tier{border-radius:22px;padding:28px;background:rgba(255,255,255,.07);transition:.3s;opacity:.7;min-width:0}
+.tier.on{background:var(--on-band);color:#2B1E21;opacity:1;transform:translateY(-6px)}
+.tier .rng{font:700 12px/1 var(--sans);letter-spacing:.14em;text-transform:uppercase;display:flex;align-items:center;gap:10px}
+.tier .dot{width:12px;height:12px;border-radius:50%;flex:none}
+.tier h3{font-size:30px;line-height:1.08;margin:16px 0 14px}
+.tier p{font-size:15px;line-height:1.55;margin:0 0 .8em}
+.res .reset{background:none;border:0;color:inherit;opacity:.65;font:600 13px var(--sans);text-decoration:underline;cursor:pointer;margin-top:26px;padding:0}
+.final{display:grid;grid-template-columns:1fr .8fr;gap:clamp(28px,6vw,90px);align-items:center;padding-block:90px 70px}
+.final h2{font-size:clamp(36px,5vw,70px);margin:16px 0 26px}
+.final .big{font:500 clamp(24px,2.8vw,34px)/1.25 var(--serif);color:var(--accent-text);margin:26px 0}
+.final .ph{border-radius:24px 24px 999px 999px;overflow:hidden;aspect-ratio:4/5;background:var(--blush)}
+.final .ph img{width:100%;height:100%;object-fit:cover;object-position:50% 30%;display:block}
+footer{border-top:1px solid var(--line);padding-block:26px 40px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:13px;color:var(--muted)}
+
+@media (max-width:900px){
+  body{font-size:17px}
+  .start-grid,.how,.step,.tiers,.final{grid-template-columns:1fr}
+  .start-grid{gap:50px;padding-top:12px}
+  .stack{max-width:360px}
+  .badge{right:-6px;width:96px;height:96px}
+  .how .ph{aspect-ratio:1/1;max-width:420px}
+  .side{position:static;display:grid;grid-template-columns:auto 1fr;gap:6px 18px;align-items:end}
+  .num{grid-row:1/4;font-size:130px;margin:0}
+  .side .eyebrow,.side h2,.sub,.prog{grid-column:2}
+  .side h2{margin-top:6px;font-size:30px}
+  .sub{font-size:20px;margin-top:6px}
+  .hd .in{gap:12px}
+  .brand{font-size:22px}
+  .final .ph{max-width:420px;aspect-ratio:1/1}
+}
+@media (max-width:520px){.side{grid-template-columns:1fr}.side .eyebrow,.side h2,.sub,.prog{grid-column:1}.num{grid-row:auto;font-size:140px}.tg-top{display:none!important}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+
+/* ===== мобильная версия ===== */
+#bar{display:none}
+body.mob{font-size:17px;padding-bottom:calc(104px + env(safe-area-inset-bottom,0px))}
+body.mob .wrap{max-width:480px}
+body.mob .hd .in{max-width:480px;flex-wrap:wrap;gap:4px 12px;padding-block:10px 2px}
+body.mob .brand{font-size:22px;margin-right:auto}
+body.mob .segs{order:5;flex:0 0 100%}
+body.mob .tg-top{display:none!important}
+body.mob #bar{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:55;gap:10px;justify-content:center;
+  padding:12px max(16px,env(safe-area-inset-right,0px)) calc(12px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));
+  background:color-mix(in srgb,var(--bg) 90%,transparent);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-top:1px solid var(--line)}
+body.mob #bar .in{width:100%;max-width:480px;display:flex;gap:10px}
+body.mob #bar .btn{flex:1;justify-content:center;padding:18px 20px}
+body.mob #bar .btn.sq{flex:0 0 58px;padding:0;height:58px;justify-content:center}
+body.mob .start-grid{grid-template-columns:1fr;gap:38px;padding-block:8px 44px}
+body.mob .start-grid>.stack{order:-1;max-width:280px;margin-top:6px}
+body.mob .start h1{margin:18px 0 18px;font-size:38px}
+body.mob .start h1 .ten{font-size:112px}
+body.mob .lead{font-size:18px}
+body.mob .start .acts .btn:not(.ghost){display:none}
+body.mob .start .acts{margin-top:24px}
+body.mob .minis{gap:22px;margin-top:30px}body.mob .minis b{font-size:32px}
+body.mob .badge{width:88px;height:88px;right:-14px}
+body.mob .float{left:-10px;padding:12px 16px}
+body.mob .marq span{font-size:26px}
+body.mob .how{grid-template-columns:1fr;padding-block:20px 40px;gap:28px}
+body.mob .how .ph{aspect-ratio:1/1;max-width:100%}
+body.mob .how .acts{display:none}
+body.mob .how h2{font-size:38px;margin-bottom:20px}
+body.mob .steps li{grid-template-columns:44px 1fr;padding:14px 0}
+body.mob .steps li::before{font-size:34px}
+body.mob .step{grid-template-columns:1fr;gap:24px;padding-block:20px 40px}
+body.mob .side{position:static;display:grid;grid-template-columns:auto 1fr;gap:4px 16px;align-items:end}
+body.mob .num{grid-row:1/4;font-size:104px;margin:0}
+body.mob .side .eyebrow,body.mob .side h2,body.mob .sub,body.mob .prog{grid-column:2}
+body.mob .side h2{font-size:26px;margin-top:4px}
+body.mob .sub{font-size:19px;margin-top:4px}
+body.mob .intro{font-size:18px}
+body.mob .checks label{padding:18px 2px;font-size:17px;gap:14px}
+body.mob .checks input{width:30px;height:30px}
+body.mob .story{padding:22px;border-radius:22px}
+body.mob .cta{padding:18px}body.mob .cta .btn{width:100%}
+body.mob .cta .btn{width:100%;justify-content:center}
+body.mob .nav{display:none}
+body.mob .res{padding:28px 22px;border-radius:28px;margin-top:16px}
+body.mob .res h2{font-size:40px}
+body.mob .tiers{grid-template-columns:1fr}
+body.mob .tier{padding:22px}
+body.mob .final{grid-template-columns:1fr;padding-block:56px 30px;gap:30px}
+body.mob .final .ph{aspect-ratio:1/1;max-width:100%}
+body.mob .final .btn{width:100%;justify-content:center}
+body.mob .layer{animation-duration:.45s}
+</style>
+</head>
+<body>
+
+<header class="hd"><div class="in">
+  <a class="brand" href="#start">Юлия Юмина</a>
+  <div class="segs" id="segs"></div>
+  <div class="cnt"><b id="hcount">0</b> <span>из 40</span></div>
+  <button class="menu-btn" id="menu" type="button" aria-label="Меню проверок"><span></span></button>
+  <a class="btn ghost sm tg-top" href="https://t.me/uminachat" target="_blank" rel="noopener">Написать в Telegram</a>
+</div></header>
+
+<div class="drawer" id="drawer" hidden><div class="panel">
+  <button class="x" id="dx" type="button" aria-label="Закрыть">×</button>
+  <div class="eyebrow">Навигация</div><h3>10 проверок</h3>
+  <div id="dlist"></div>
+</div></div>
+
+<main class="wrap" id="app"></main>
+
+<script>(function(){var mq=window.matchMedia('(max-width:700px)');if(mq.matches)document.body.classList.add('mob');
+var f=function(){location.reload()};if(mq.addEventListener)mq.addEventListener('change',f);else if(mq.addListener)mq.addListener(f)})();</script>
+<script>
+const TG='https://t.me/uminachat';
+const S=[
+ {
+  "t": "Заплатили миллионы, а застройщик готовится к банкротству",
+  "intro": "Даже известный застройщик не гарантирует безопасность покупки. За громким брендом могут стоять разные юридические лица, у которых есть долги, судебные споры и финансовые проблемы. Поэтому важно проверить не только репутацию компании, но и конкретный проект: кто отвечает за строительство, вовремя ли сдаются дома, как идут продажи и нет ли признаков банкротства.",
+  "items": [
+   "Найти юридическое лицо в проектной декларации и проверить его ИНН, историю строительства и переносы сроков на [наш.дом.рф](https://xn--80az8a.xn--d1aqf.xn--p1ai/).",
+   "Проверить судебные дела на [kad.arbitr.ru](https://kad.arbitr.ru/), сведения о банкротстве на [fedresurs.ru](https://fedresurs.ru/) и статус компании в ЕГРЮЛ ФНС.",
+   "Сравнить динамику цен, реальные скидки, количество непроданных квартир и темпы продаж с другими жилыми комплексами района.",
+   "Выяснить, какой банк финансирует строительство и на каком этапе находится конкретный корпус."
+  ],
+  "sl": "История из нашей практики",
+  "story": [
+   "К нам обратился клиент, который уже выбрал квартиру и собирался её покупать. Ему нравился жилой комплекс, устраивала цена, а менеджеры уверяли, что никаких проблем нет.",
+   "Но когда мы начали проверять застройщика, обнаружили сведения о начатой процедуре банкротства компании. При этом дом был сдан и квартиры в нём продавали через ипотеку, то есть даже банк этот момент упустил. При этом в офисе продаж клиенту об этом не рассказывали.",
+   "Мы показали клиенту, что происходит с компанией, направили юридическое заключение, объяснили возможные риски и вместе решили отказаться от покупки. Клиент сделал выбор в пользу другого объекта."
+  ],
+  "cta": [
+   "АУДИТ",
+   "Если нужна помощь, напишите «АУДИТ» в личные сообщения — поможем проверить застройщика и оценить риски покупки."
+  ]
+ },
+ {
+  "t": "Из-за одного пункта в договоре вы не сможете продать квартиру",
+  "intro": "При покупке новостройки важно думать не только о том, как приобрести квартиру, но и о том, сможете ли вы её продать до получения ключей. За несколько лет планы могут измениться: переезд, рождение ребёнка, изменение финансового положения. А условия договора, особенно при покупке в рассрочку, могут серьёзно осложнить продажу и возврат вложенных денег.",
+  "items": [
+   "Получить полный ДДУ со всеми приложениями. Проверить срок сдачи дома, передачи квартиры, площадь, отделку и дополнительные платежи.",
+   "Выяснить схему оплаты, использование эскроу-счёта, условия расторжения договора и ответственность сторон.",
+   "Изучить условия переуступки до получения ключей: предусмотрены ли ограничения, согласования и дополнительные расходы.",
+   "При покупке в рассрочку узнать, нужно ли полностью погасить остаток перед продажей или можно передать долг новому покупателю с согласия кредитора."
+  ],
+  "sl": "Пример ситуации",
+  "story": [
+   "Представьте, вы покупаете квартиру в строящемся доме в рассрочку. Вносите первоначальный взнос 10 миллионов рублей, а оставшуюся сумму выплачиваете фиксированными платежами в течение строительства.",
+   "Через год в вашей семье появляется ребёнок, и вы понимаете, что нужна квартира побольше. Решаете продать текущую и вложить деньги в более просторную.",
+   "Но тут выясняется, что по условиям договора переуступка в вашей ситуации не предусмотрена и вы должны ждать ещё 2 года, пока дом не достроят.",
+   "Даже если вы думаете, что квартиру до окончания строительства продавать точно не будете - лучше уточнить заранее. Пусть не пригодится, но вы будете знать, что такая возможность есть."
+  ]
+ },
+ {
+  "t": "Купили вид на парк, а получили трассу и новую многоэтажку",
+  "intro": "Покупая квартиру, вы выбираете не только сам дом, но и то, что будет вокруг него. Сегодня перед окнами может быть малоэтажный дом, парк или пустой участок, а через несколько лет — новая высотка, дорога или стройка. В Москве районы быстро меняются из-за КРТ (комплексного развития территорий; яркий пример: ранее завод ЗИЛ, ныне масштабный жилой комплекс ЗИЛАРТ), реновации и транспортных проектов, поэтому важно заранее выяснить, что город планирует построить рядом.",
+  "items": [
+   "Изучить соседние земельные участки, программы КРТ, реновации и проекты планировки территории на [mos.ru](https://www.mos.ru/) и [stroi.mos.ru](https://stroi.mos.ru/).",
+   "Проверить, какие проекты уже утверждены, а какие пока существуют только в виде планов.",
+   "Оценить нынешнее окружение: магистрали, железные дороги, промзоны и другие источники шума.",
+   "Проверить, нет ли рядом с выбранной квартирой вентиляционных шахт, технических помещений, въезда в паркинг и зон разгрузки магазинов."
+  ],
+  "sl": "История из нашей практики",
+  "story": [
+   "К нам обратился клиент для подбора квартиры - один из важных критериев был панорамный вид на воду. У него уже было несколько фаворитов среди жилых комплексов. Он поделился своими вариантами, которые, как ему казалось, подходят. Мы решили детально проверить каждый из них.",
+   "Один жилой комплекс на первый взгляд полностью отвечал его запросам. Но когда мы изучили утверждённые планы развития района, выяснилось, что прямо рядом с домом город планирует построить автомобильную дорогу.",
+   "Мы показали клиенту документы, объяснили возможные риски и предложили другие проекты, где можно было сохранить желаемый вид на воду.",
+   "В итоге дополнительная проверка помогла клиенту избежать покупки квартиры, вместо красивого вида из которой через несколько лет могла появиться оживлённая трасса."
+  ]
+ },
+ {
+  "t": "Ипотека под 4% может обойтись дороже ипотеки под 15%",
+  "intro": "Застройщики часто предлагают несколько вариантов оплаты одной квартиры. Например, субсидированную ипотеку под 4% на период строительства, которая на первый взгляд кажется выгоднее ипотеки по рыночной ставке. Но при детальном расчёте может выясниться, что из-за завышенной стоимости квартиры и переплаты после окончания льготного периода такая ипотека обойдётся дороже. Но важно всё считать и учитывать много факторов, таких как первоначальный взнос, активы, которые планируются к продаже, срок субсидированной ставки и другие.\nВ рассрочке тоже бывают свои нюансы: удорожание квартиры и крупный остаточный платёж. Поэтому сравнивать нужно не рекламные ставки, а полную стоимость квартиры при разных схемах покупки.",
+  "items": [
+   "Запросить стоимость одной и той же квартиры при полной оплате, стандартной ипотеке, субсидированной ипотеке и рассрочке. Просчитать всё и сравнить, используя кредитный калькулятор, который показывает суммы переплат: [banki.ru](https://www.banki.ru/products/hypothec/vtb/calculator/)",
+   "Проверить сроки действия сниженной ставки, размер платежей после льготного периода, доступные банки и условия кредитования.",
+   "Изучить график рассрочки: первоначальный взнос, ежемесячные платежи, удорожание, штрафы и окончательный платёж.",
+   "Рассчитать полную стоимость покупки с учётом процентов, комиссий, страховок, ремонта, мебели и необходимого финансового резерва."
+  ],
+  "sl": "История из нашей практики",
+  "story": [
+   "К нам обратился клиент с 20 миллионами рублей наличными. Он планировал купить квартиру за 100% оплату, чтобы не связываться с ипотекой и рассрочкой.",
+   "Но мы предложили ему рассмотреть другой вариант: внести первоначальный взнос 10 миллионов рублей (по 5 млн на 2 квартиры), часть отложить на ежемесячные платежи и остаток разместить на вклад, другие финансовые инструменты, такие как РЕПО, или приобрести ещё одну квартиру, учитывая ваш доход и готовность к финансовой нагрузке. Мы сравнили стоимость квартиры при полной оплате и в рассрочку, разобрали график платежей и то, какой запас денег останется у клиента после сделки.",
+   "В итоге мы приобрели 2 квартиры в строящемся доме в рассрочку вместо одной за наличные. В одной жить, другую потом сдавать."
+  ],
+  "cta": [
+   "РАСЧЁТ",
+   "Напишите «РАСЧЁТ» в личные сообщения — подберём подходящий вариант, сравним разные варианты покупки и выберем оптимальный."
+  ]
+ },
+ {
+  "t": "Застройщик обещает рост х2, а готов ли к этому будет рынок?",
+  "intro": "Даже если вы покупаете квартиру для себя, важно заранее подумать, насколько легко её будет продать через несколько лет. Понять её ликвидность. Рост цен на сайте застройщика ещё не означает, что покупатели готовы платить столько же на вторичном рынке. Иногда это только виртуальный рост цены.\nОсобенно если в жилом комплексе много одинаковых квартир, инвесторов и нераспроданных корпусов. Поэтому перед покупкой нужно оценить реальные факторы роста стоимости, конкуренцию и сроки возможной перепродажи, а не ориентироваться только на обещанную доходность.",
+  "items": [
+   "**Оценить потенциал роста стоимости.** Есть ли факторы, которые могут повлиять на рост цены квартиры: развитие территории по программе КРТ, открытие новой станции метро, строительство дорог, парков, школ и другой инфраструктуры?",
+   "**Изучить конкуренцию в локации.** Сколько похожих квартир уже выставлено на продажу в этом и в соседних жилых комплексах? Есть ли дефицит предложения или рынок, наоборот, перенасыщен однотипными объектами?",
+   "**Проверить масштаб жилого комплекса.** Сколько корпусов и очередей запланировано, сколько квартир будет построено и когда завершится строительство всего проекта, а не только вашего дома?",
+   "**Оценить возможность перепродажи.** Например, вы захотите продать квартиру в 2028 году, а строительство всего комплекса рассчитано до 2040 года. В таком случае вам придётся конкурировать с застройщиком, который продолжит продавать новые квартиры, предлагать акции, рассрочки и специальные ипотечные программы. Продать свою квартиру по желаемой цене может оказаться гораздо сложнее."
+  ],
+  "sl": "История из нашей практики",
+  "story": [
+   "К нам обратилась клиентка с бюджетом около 26 миллионов рублей. Она искала недвижимость для инвестиций и рассматривала апартаменты в районе Калужской. Планировала сдавать их примерно за 150 тысяч рублей в месяц, а через несколько лет продать дороже.",
+   "Но когда мы начали анализировать проект, выяснилось, что в нём оставалось много непроданных апартаментов, а значительная часть покупателей тоже рассматривала их как инвестицию.",
+   "Это означало, что после сдачи дома на рынке аренды и перепродажи могло одновременно появиться много похожих предложений. А значит, клиентке пришлось бы конкурировать не только с другими собственниками, но и с самим застройщиком. И конкурировать пришлось бы снижением цены.",
+   "Мы сравнили несколько альтернатив, показали разницу в рисках и перспективах. В итоге клиентка решила увеличить бюджет до 31 миллиона рублей, и мы приобрели полноценную квартиру в жилом комплексе на Ходынке, где очень высокий спрос и цены на аренду, а будущие бизнес-центры станут драйверами роста спроса на аренду. К тому же, малоэтажный 13-этажный дом, а значит конкуренция будет значительно ниже, как при сдаче в аренду, так и при перепродаже.",
+   "Ведь главное в инвестициях — не то, сколько застройщик обещает вам прирост цен на презентации, а насколько востребованной будет ваша квартира, когда вы решите её продать."
+  ],
+  "cta": [
+   "ПОДБОР",
+   "Если нужна помощь, напишите «ПОДБОР» в личные сообщения — проверим ликвидность выбранной квартиры и сравним её с альтернативами."
+  ]
+ },
+ {
+  "t": "«10 минут до метро». Если вплавь через реку?",
+  "intro": "В рекламе застройщики часто указывают идеальное время до метро и центра, но реальный маршрут может оказаться совсем другим. Между вашим домом и станцией могут быть железная дорога, река или неудобные переходы. А обещанные 15 минут до центра легко превращаются в 40 из-за пробок. Поэтому важно проверить не только расстояние на карте, но и то, сколько времени вы действительно будете тратить на дорогу каждый день.",
+  "items": [
+   "Проверить реальный пеший маршрут до метро с учётом переходов, ограждений и других препятствий.",
+   "Посмотреть время поездки до работы и центра в Яндекс Картах в будние дни утром и вечером, в часы пик.",
+   "Проверить количество выездов из жилого комплекса, загруженность ближайших дорог и планы строительства новых корпусов.",
+   "Изучить маршруты общественного транспорта, их загруженность, интервалы движения и планы строительства новых станций метро."
+  ],
+  "sl": "История из нашей практики",
+  "story": [
+   "К нам обратилась семья, для которой было важно, чтобы до метро можно было быстро и удобно дойти пешком — в первую очередь потому, что к ребёнку каждый день приезжает няня на общественном транспорте.",
+   "У них был фаворит среди жилых комплексов — проект, который они увидели в чьей-то рекламе. В рекламе застройщик указывал, что до метро всего 800 метров. Но мы знаем, что между домом и станцией проходит железная дорога, а до ближайшего оборудованного перехода идти около 20 минут.",
+   "Город обещает построить новый переход рядом с жилым комплексом, но точных сроков пока нет. В итоге мы предложили семье другой вариант, где до метро действительно можно быстро и безопасно дойти пешком."
+  ]
+ },
+ {
+  "t": "Обещали город в городе, а за хлебом придётся ехать на машине",
+  "intro": "Перед покупкой важно понять, какая инфраструктура нужна именно для вашего образа жизни.\nЕсли у вас есть дети — проверьте школы и детские сады рядом, наличие свободных мест и сроки строительства новых. Если застройщик обещает фитнес, рестораны, магазины и салоны красоты на территории жилого комплекса, выясните, кто будет их открывать: сам застройщик или будущие арендаторы коммерческих помещений.\nВедь наличие помещения под ресторан ещё не гарантирует, что ресторан действительно появится.\nИ отдельно оцените парковку: дефицит машиномест может стать проблемой не только для повседневной жизни, но и при будущей продаже квартиры.",
+  "items": [
+   "**Проверить социальную инфраструктуру.** Какие школы, детские сады, поликлиники и спортивные объекты уже работают поблизости? Есть ли свободные места, когда откроются новые учреждения и насколько удобно до них добираться?",
+   "**Выяснить, что застройщик действительно обязуется построить и открыть.** Кто отвечает за появление фитнеса, салонов красоты, магазинов и ресторанов? Есть ли подтверждённые операторы или пока предусмотрены только коммерческие помещения, для которых будут искать арендаторов?",
+   "**Оценить инфраструктуру всего района.** Какие магазины, рестораны, парки, медицинские учреждения и сервисы уже доступны за пределами жилого комплекса? Закрывают ли они ваши повседневные потребности?",
+   "**Рассчитать парковочный коэффициент.** Разделить количество машиномест для жителей на число квартир. Если коэффициент ниже 0,5 (менее 50%), стоит особенно серьёзно рассмотреть покупку машиноместа, а если в семье два автомобиля — двух. После заселения дома свободных мест может не остаться, а квартира с парковкой при дефиците мест будет конкурентоспособнее при перепродаже. При этом оцените цены на машиноместа и наличие городских парковок поблизости."
+  ],
+  "sl": "Пример ситуации",
+  "story": [
+   "Семья с ребёнком выбирает квартиру в новом жилом комплексе. Застройщик обещает буквально всё: частный детский сад, фитнес-клуб, рестораны, магазины и салоны красоты на первых этажах. Кажется, что из дома можно будет вообще никуда не выезжать.",
+   "Но при нашем более детальном изучении проекта выясняется, что детский сад планируют открыть только через несколько лет, а под фитнес, рестораны и магазины застройщик просто предусмотрел коммерческие помещения. Кто и когда их займёт — пока неизвестно.",
+   "При этом ближайший действующий детский сад находится далеко, а в школах поблизости нет свободных мест для нужного возраста ребёнка.",
+   "В итоге мы подобрали семье другой жилой комплекс, где инфраструктура не такая впечатляющая на рендерах, зато рядом уже работают школа, детский сад, магазины и спортивные секции."
+  ]
+ },
+ {
+  "t": "Купили бизнес-класс, а оказались в общежитии на 1000 квартир",
+  "intro": "Красивая архитектура и статус бизнес-класса ещё не гарантируют комфортную жизнь или высокую доходность от аренды. В одном доме может быть по 4 квартиры на этаже, а в другом — по 15, и значительная часть из них будет сдаваться.\nЕсли в жилом комплексе сотни одинаковых студий и однокомнатных квартир, инвесторам придётся конкурировать за арендаторов, а тем, кто покупает для себя, — учитывать возможную частую смену соседей. Поэтому важно изучить не только квартиру, но и квартирографию, масштаб проекта и спрос на аренду.",
+  "items": [
+   "Проверить количество квартир на этаже, в секции и число лифтов в конкретном корпусе.",
+   "Изучить квартирографию: сколько в жилом комплексе студий, однокомнатных квартир и квартир семейного формата.",
+   "Оценить распроданность проекта, количество корпусов и объём похожих квартир, которые уже предлагаются в аренду.",
+   "Проверить конкуренцию на рынке аренды: сколько аналогичных объявлений размещено, как долго они не находят арендаторов и насколько отличаются запрашиваемые ставки."
+  ],
+  "sl": "История из нашей практики",
+  "story": [
+   "К нам обратился клиент, который хотел купить квартиру для пассивного дохода — сдавать её в аренду и получать стабильные ежемесячные платежи.",
+   "Он уже присмотрел жилой комплекс, который казался ему перспективным для инвестиций: хорошее расположение, современная архитектура и привлекательная цена.",
+   "Но на консультации мы показали, что в проекте очень высокая доля студий и однокомнатных квартир, много корпусов, а на рынке уже выставлено большое количество похожих квартир под аренду. Причём некоторые объявления находятся в экспозиции долгими месяцами, и арендаторы на них так и не находятся.",
+   "В итоге мы подобрали клиенту более камерный жилой комплекс, где гораздо меньше одинаковых квартир и ограничено предложение аренды."
+  ]
+ },
+ {
+  "t": "Квартиру купили. А второй «ипотечный платёж» приходит от УК?",
+  "intro": "Покупая квартиру в бизнес- или премиум-классе, важно учитывать не только ипотеку, но и будущие расходы на содержание дома.\nОхрана, консьержи, дизайнерские лобби, озеленение, бассейны и другие удобства требуют постоянного обслуживания. Причём часть услуг может быть обязательной, даже если вы ими не пользуетесь. Поэтому ещё до покупки стоит выяснить, сколько примерно придётся платить каждый месяц и что входит в эту сумму.",
+  "items": [
+   "Запросить у застройщика предполагаемую стоимость содержания квартиры за квадратный метр.",
+   "Уточнить перечень услуг, которые будут входить в тариф. Для ориентира, средние тарифы за квадратный метр в зависимости от класса жилья: эконом — 70–100 ₽, комфорт — 120–280 ₽, бизнес — 140–300 ₽, премиум — 170–500 ₽, люкс/делюкс — 500–900 ₽ за м².",
+   "Сравнить стоимость содержания с уже заселёнными жилыми комплексами аналогичного класса и разделить коммунальные платежи и услуги управляющей компании.",
+   "Рассчитать примерные ежемесячные расходы с учётом площади квартиры, ипотеки или рассрочки, содержания и дополнительных услуг."
+  ],
+  "sl": "История из нашей практики",
+  "story": [
+   "К нам обратился клиент, который выбирал квартиру для собственного проживания. Мы рассматривали два жилых комплекса в одной локации.",
+   "В первом были фитнес-клуб, бассейн, SPA, переговорные и множество других удобств для жителей. Во втором — только небольшое лобби, переговорные и уютный внутренний двор.",
+   "Казалось бы, выбор очевиден — первый вариант, где есть практически всё. Но во время консультации выяснилось, что клиент большую часть времени проводит на работе, там же посещает любимый фитнес-клуб, бассейн и менять их не планирует. Домой приезжает в позднее время. Поэтому всеми этими удобствами он вряд ли стал бы пользоваться.",
+   "При этом разница в стоимости содержания составляла около 200 рублей за квадратный метр ежемесячно. Для квартиры площадью 80 м² это дополнительные 16 тысяч рублей в месяц, или 192 тысячи в год. А за 10 лет — почти 2 миллиона рублей при неизменных тарифах!",
+   "В итоге мы выбрали второй жилой комплекс, который полностью закрывал потребности клиента, но не заставлял его переплачивать за ненужную инфраструктуру."
+  ]
+ },
+ {
+  "t": "Размер не всегда решает",
+  "sub": "Почему квартира площадью 77 м² может оказаться удобнее, чем 90 м²?",
+  "intro": "Большая площадь не всегда означает удобную квартиру. Иногда из 90 квадратных метров значительную часть занимают длинные коридоры, неудобные проходы и бесполезные углы, а в квартире поменьше удаётся разместить больше полноценных комнат. А платите вы больше, так как стоимость идёт за квадратный метр.\nКроме планировки, важно проверить стороны света (самыми хорошими для жизни являются запад или восток), вид из окон, шумоизоляцию, вентиляцию и материалы строительства — ведь многие из этих недостатков потом невозможно исправить даже дорогим ремонтом.",
+  "items": [
+   "Сравнить полезную площадь: размеры комнат, коридоры, места для хранения, расположение несущих стен и мокрых зон.",
+   "**Проверить освещённость квартиры и стороны света.** Воспользоваться сервисами [SunCalc](https://www.suncalc.org/) и [Shadowmap](https://shadowmap.org/): указать расположение дома, выбрать время суток и сезон, посмотреть движение солнца и тени от соседних зданий. Дополнительно проверить расстояние до соседних корпусов, приватность окон и планы будущей застройки.",
+   "Изучить материалы стен и перекрытий, решения по шумоизоляции и энергоэффективности.",
+   "Уточнить тип остекления, возможность открывать окна и проветривать комнаты, а также стандарты отделки по договору."
+  ],
+  "sl": "История из нашей практики",
+  "story": [
+   "К нам обратилась семья с двумя детьми, которая выбирала квартиру для постоянного проживания. Одним из главных пожеланий было, чтобы у каждого ребёнка появилась своя комната.",
+   "На выбор было два варианта: квартира площадью 90 м² и более компактная — 77 м².",
+   "Казалось бы, логично взять ту, что больше. Но когда мы разобрали планировки, выяснилось, что в квартире на 90 м² слишком много площади занимают коридоры, а полноценных спален получается только две.",
+   "Зато в квартире на 77 м² пространство было организовано гораздо удачнее: удалось разместить три отдельные спальни — для родителей и каждого ребёнка.",
+   "В итоге семья выбрала меньшую квартиру, потому что она лучше подходила под их задачи. При этом стоимость приобретения, ремонта и обслуживания вышла меньше, и на разницу мы приобрели дополнительное парковочное место."
+  ],
+  "cta": [
+   "ПЛАНИРОВКА",
+   "Если нужна помощь, напишите «ПЛАНИРОВКА» в личные сообщения — сравним полезные метры и технические особенности выбранных вариантов."
+  ]
+ }
+];
+
+const fmt=s=>s.replace(/\*\*(.+?)\*\*/g,'<b>$1</b>').replace(/\[(.+?)\]\((.+?)\)/g,'<a href="$2" target="_blank" rel="noopener">$1</a>');
+const tg=w=>TG+'?text='+encodeURIComponent(w);
+const KEY='checks-v1';
+let state={};
+try{state=JSON.parse(localStorage.getItem(KEY)||'{}')}catch(e){}
+const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(state))}catch(e){}};
+const N=S.length;
+const words=['Застройщик','Договор','Окружение','Ипотека','Ликвидность','Транспорт','Инфраструктура','Аренда','Содержание','Планировка'];
+const marq=(words.map(w=>`<span>${w}</span>`).join(''));
+
+/* фото на шагах: номер проверки -> файл и точка кадрирования. Добавить сюда фото ЖК и рабочие кадры */
+const PH={
+1:[{src:'img/p1a.jpg',pos:'50% 35%',alt:'Юлия Юмина у макета жилого комплекса в офисе продаж'},{src:'img/p1b.jpg',pos:'50% 25%',alt:'Юлия Юмина в каске на стройке'}],
+2:[{src:'img/p2.jpg',pos:'50% 18%',alt:'Юлия Юмина за столом с журналом'}],
+3:[{src:'img/p3a.jpg',pos:'62% 50%',alt:'Квартал у реки сверху'},{src:'img/p3b.jpg',pos:'50% 30%',alt:'Юлия Юмина у окна, за стеклом строящийся дом'}],
+4:[{src:'img/p4.jpg',pos:'50% 55%',alt:'Юлия Юмина за расчётами'}],
+5:[{src:'img/p5a.jpg',pos:'50% 42%',alt:'Вид из окна на высотку и реку'},{src:'img/p5b.jpg',pos:'50% 28%',alt:'Юлия Юмина'}],
+6:[{src:'img/p6.jpg',pos:'50% 50%',alt:'Река, мост и магистраль рядом с жилым кварталом'}],
+7:[{src:'img/p7.jpg',pos:'50% 62%',alt:'Благоустроенный двор жилого комплекса'}],
+8:[{src:'img/p8.jpg',pos:'50% 60%',alt:'Юлия Юмина в квартире с панорамными окнами'}],
+9:[{src:'img/p9.jpg',pos:'50% 38%',alt:'Фасад жилого дома'}],
+10:[{src:'img/p10a.jpg',pos:'50% 40%',alt:'Квартира без отделки с высокими окнами'},{src:'img/p10b.jpg',pos:'50% 45%',alt:'Юлия Юмина в квартире у большого окна'}]
+};
+const L={};
+L.start=`<section class="layer start" id="L-start">
+ <div class="start-grid">
+  <div>
+   <div class="eyebrow">Чек-лист покупателя новостройки</div>
+   <h1><span class="ten" aria-hidden="true">10</span><span class="sr" style="position:absolute;left:-9999px">10 </span>обязательных проверок при покупке квартиры <em>в новостройке</em></h1>
+   <p class="lead">Которые могут уберечь от потери денег, испорченного вида из окна и проблем с продажей.</p>
+   <div class="acts"><a class="btn" href="#how">Изучить <span class="ar">→</span></a>
+     <a class="btn ghost" href="${TG}" target="_blank" rel="noopener">Написать нам</a></div>
+   <div class="minis"><div><b>6000+</b><span>сделок</span></div><div><b>400+</b><span>жилых комплексов<br>Москвы в анализе</span></div><div><b>40</b><span>проверок<br>в гайде</span></div></div>
+  </div>
+  <div class="stack">
+   <div class="photo"><img src="img/hero.jpg" alt="Юлия Юмина" width="1200" height="1800"></div>
+   <div class="badge"><svg viewBox="0 0 120 120" aria-hidden="true"><defs><path id="cc" d="M60,60 m-46,0 a46,46 0 1,1 92,0 a46,46 0 1,1 -92,0"/></defs><text font-size="10.5" font-weight="700" letter-spacing="2" fill="currentColor"><textPath href="#cc" textLength="283" lengthAdjust="spacing">ПРОВЕРЬ ДО СДЕЛКИ ✦ ЧЕК-ЛИСТ ✦</textPath></text></svg><i>✓</i></div>
+   <div class="float"><b>10 шагов</b>от застройщика<br>до планировки</div>
+  </div>
+ </div>
+ <div class="marq" aria-hidden="true"><div class="track">${marq}${marq}${marq}${marq}</div></div>
+</section>`;
+
+L.how=`<section class="layer how" id="L-how">
+ <div class="ph"><img src="img/portrait.jpg" alt="Юлия Юмина" loading="lazy"></div>
+ <div>
+  <div class="eyebrow">Перед началом</div>
+  <h2>Как пользоваться чек-листом</h2>
+  <p class="lead" style="font-size:18px;margin-bottom:26px">Красивый рендер, большая скидка и обещания менеджера — ещё не гарантии удачной покупки. Перед сделкой обязательно проверьте эти моменты, чтобы потом не расплачиваться за ошибки своими деньгами и временем.</p>
+  <ol class="steps">
+   <li><span>Выберите жилой комплекс, который хотите проверить.</span></li>
+   <li><span>На каждый вопрос найдите подтверждение: документ, ссылку, расчёт или письменный ответ застройщика. Отмечайте пункт только после проверки.</span></li>
+   <li><span>Если информации нет, оставьте пункт пустым. Это повод задать дополнительные вопросы, а не верить обещаниям.</span></li>
+   <li><span>Всего в гайде 40 проверок. В конце посчитайте, сколько из них удалось пройти, и оцените результат. Но помните: важны не только количество галочек, но и серьёзность обнаруженных рисков.</span></li>
+  </ol>
+  <div class="acts" style="margin-top:0"><a class="btn" href="#step-1">Начать с проверки 1 <span class="ar">→</span></a><a class="btn ghost" href="#start">Назад</a></div>
+ </div></section>`;
+
+S.forEach((s,i)=>{
+  const n=i+1;
+  const items=s.items.map((it,j)=>{const id=`c${n}_${j}`;
+    return `<li><label for="${id}"><input type="checkbox" id="${id}" data-k="${id}"><span>${fmt(it)}</span></label></li>`}).join('');
+  const first=s.story[0], rest=s.story.slice(1);
+  const more=rest.length?`<div class="more"><div>${rest.map(p=>`<p>${p}</p>`).join('')}</div></div><button class="tog" type="button">Читать дальше</button>`:'';
+  const cta=s.cta?`<div class="cta"><p>${s.cta[1].replace(/«(.+?)»/,'<b>«$1»</b>')}</p><a class="btn sm" href="${tg(s.cta[0])}" target="_blank" rel="noopener">Написать нам</a></div>`:'';
+  const prev=n>1?`#step-${n-1}`:'#how';
+  const next=n<N?`#step-${n+1}`:'#result';
+  L['step-'+n]=`<section class="layer step" id="L-step-${n}">
+   <div class="side">
+    <div class="num" aria-hidden="true">${n}</div>
+    <div class="eyebrow">Проверка ${n} из ${N}</div>
+    <h2>${s.t}</h2>${s.sub?`<div class="sub">${s.sub}</div>`:''}
+    <div class="prog">Пройдено: <b data-p="${n}">0</b> из 4</div>
+   </div>
+   <div class="main">
+    ${PH[n]?`<figure class="shot${PH[n].length>1?' two':''}">${PH[n].map(p=>`<img src="${p.src}" alt="${p.alt}" style="object-position:${p.pos}" loading="lazy">`).join('')}</figure>`:''}
+    <div class="intro">${s.intro.split('\n').map(x=>`<p>${x}</p>`).join('')}</div>
+    <div class="label">Что важно сделать</div>
+    <ul class="checks">${items}</ul>
+    <div class="story${i%2?' alt':''}"><div class="label">${s.sl}</div><p>${first}</p>${more}</div>
+    ${cta}
+    <div class="nav"><a class="btn ghost" href="${prev}"><span class="ar">←</span> Назад</a>
+     <a class="btn" href="${next}">${n<N?'Проверка '+(n+1):'Узнать результат'} <span class="ar">→</span></a></div>
+   </div></section>`;
+});
+
+L.result=`<section class="layer" id="L-result">
+ <div class="res">
+  <div class="eyebrow">Итог</div>
+  <h2>Ваш результат проверки</h2>
+  <div class="score"><b id="score">0</b><span>из 40 проверок пройдено</span></div>
+  <div class="rbar"><i id="rbar"></i></div>
+  <div class="tiers">
+   <div class="tier" data-tier="0"><span class="rng"><span class="dot" style="background:#D2606B"></span>До 12 пунктов</span>
+    <h3>Вы только в начале пути</h3>
+    <p>Это базовый минимум. Возможно, у вас уже появилось ощущение, что вы всё предусмотрели, но на самом деле большая часть рисков остаётся за кадром.</p>
+    <p>Можно проверить застройщика, планировку и транспорт, но упустить один пункт в договоре, который впоследствии обойдётся вам в миллионы.</p></div>
+   <div class="tier" data-tier="1"><span class="rng"><span class="dot" style="background:#E0A93C"></span>13–31 пункт</span>
+    <h3>Уже лучше, но расслабляться рано</h3>
+    <p>Вы подошли к покупке осознаннее большинства покупателей, изучили часть важных вопросов и уже можете заметить риски, которые на первый взгляд неочевидны.</p>
+    <p>Но даже если половина проверок пройдена — один пропущенный нюанс может перечеркнуть все преимущества сделки. Например, скрытые ограничения на перепродажу или будущая стройка прямо перед окнами.</p></div>
+   <div class="tier" data-tier="2"><span class="rng"><span class="dot" style="background:#7BAA73"></span>32–40 пунктов</span>
+    <h3>На шаг ближе к покупке без сожалений</h3>
+    <p>Вот это уже серьёзный подход к покупке недвижимости! Вы изучили застройщика, условия сделки, перспективы района, расходы на содержание и ликвидность квартиры.</p>
+    <p>Но важно не только количество галочек, а качество каждой проверки. Даже один пропущенный критический риск может стоить миллионов.</p><p>И если все ключевые вопросы закрыты, у вас гораздо больше оснований рассчитывать, что квартира будет радовать вас не только сегодня, но и через 5–10 лет.</p></div>
+  </div>
+  <div style="display:flex;gap:18px;align-items:center;flex-wrap:wrap;margin-top:26px"><a class="btn ghost" style="color:var(--on-band);box-shadow:inset 0 0 0 1.5px var(--on-band)" href="#step-${N}"><span class="ar">←</span> К проверке ${N}</a><button class="reset" id="reset" type="button">Сбросить все отметки</button></div>
+ </div>
+ <div class="final">
+  <div>
+   <div class="eyebrow">И вот что важно понимать</div>
+   <h2>Каждая проверка требует времени, знаний и понимания рынка</h2>
+   <p>Каждый из 40 пунктов требует времени, умения работать с документами и знания рынка недвижимости. Можно потратить недели на самостоятельную проверку, а можно доверить это тем, кто занимается этим каждый день.</p>
+   <p class="big">За моими плечами и плечами моей команды более 6000 сделок и детальный анализ более 400 жилых комплексов Москвы.</p>
+   <p>Мы не просто подбираем красивые квартиры. Мы проверяем застройщиков, изучаем планы развития районов, сравниваем финансовые условия и оцениваем перспективы недвижимости. Как итог у вас будет <b>юридическое заключение юриста, что все проверки пройдены и объект к приобретению рекомендован.</b></p>
+   <p><b>Напишите мне, чтобы получить консультацию, подобрать подходящий вариант с учётом ваших целей и задач, и проверить все нюансы перед сделкой.</b></p>
+   <a class="btn" href="${TG}" target="_blank" rel="noopener" style="margin-top:10px">Написать нам <span class="ar">→</span></a>
+  </div>
+  <div class="ph"><img src="img/cta.jpg" alt="Юлия Юмина с журналом над головой, как с крышей" loading="lazy"></div>
+ </div>
+ <footer><span>Юлия Юмина · подбор и проверка новостроек Москвы</span><a href="${TG}" target="_blank" rel="noopener">Telegram: @uminachat</a></footer>
+</section>`;
+
+const app=document.getElementById('app');
+app.innerHTML=Object.values(L).join('');
+const layers=[...app.querySelectorAll('.layer')];
+layers.forEach(l=>l.hidden=true);
+
+/* header segments + drawer */
+const segs=document.getElementById('segs');
+segs.innerHTML=S.map((s,i)=>`<a class="seg" href="#step-${i+1}" aria-label="Проверка ${i+1}"><i></i></a>`).join('');
+const segEls=[...segs.children];
+document.getElementById('dlist').innerHTML=
+ `<a class="row" href="#how"><b>·</b><span>Как пользоваться</span><em></em></a>`+
+ S.map((s,i)=>`<a class="row" href="#step-${i+1}"><b>${i+1}</b><span>${s.t}</span><em data-d="${i+1}"></em></a>`).join('')+
+ `<a class="row" href="#result"><b>✓</b><span>Результат</span><em></em></a>`;
+const drawer=document.getElementById('drawer');
+document.getElementById('menu').onclick=()=>drawer.hidden=false;
+document.getElementById('dx').onclick=()=>drawer.hidden=true;
+drawer.addEventListener('click',e=>{if(e.target===drawer||e.target.closest('a.row'))drawer.hidden=true});
+
+const boxes=[...document.querySelectorAll('.checks input')];
+const cnt=n=>boxes.filter(b=>b.dataset.k.startsWith(`c${n}_`)&&b.checked).length;
+function render(){
+  let c=0;boxes.forEach(b=>{b.checked=!!state[b.dataset.k];if(b.checked)c++});
+  for(let n=1;n<=N;n++){const d=cnt(n);
+    document.getElementById('L-step-'+n).classList.toggle('done',d===4);
+    document.querySelector(`[data-p="${n}"]`).textContent=d;
+    segEls[n-1].firstElementChild.style.width=d/4*100+'%';
+    document.querySelector(`[data-d="${n}"]`).textContent=d+'/4';}
+  document.getElementById('hcount').textContent=c;
+  document.getElementById('score').textContent=c;
+  document.getElementById('rbar').style.width=c/40*100+'%';
+  const t=c<=12?0:c<=31?1:2;
+  document.querySelectorAll('.tier').forEach(e=>e.classList.toggle('on',c>0&&+e.dataset.tier===t));
+}
+boxes.forEach(b=>b.addEventListener('change',()=>{state[b.dataset.k]=b.checked;save();render()}));
+document.getElementById('reset').onclick=()=>{state={};save();render()};
+document.querySelectorAll('.story .tog').forEach(btn=>btn.onclick=()=>{
+  const st=btn.closest('.story');st.classList.toggle('open');btn.textContent=st.classList.contains('open')?'Свернуть':'Читать дальше'});
+
+const valid=new Set(['start','how','result',...S.map((_,i)=>'step-'+(i+1))]);
+let route=function(){
+  let h=location.hash.slice(1);if(!valid.has(h))h='start';
+  layers.forEach(l=>{const on=l.id==='L-'+h;if(on&&l.hidden){l.hidden=false;l.style.animation='none';void l.offsetWidth;l.style.animation=''}else if(!on)l.hidden=true});
+  document.body.classList.toggle('is-start',h==='start');
+  segEls.forEach((s,i)=>s.classList.toggle('cur',h==='step-'+(i+1)));
+  window.scrollTo(0,0);
+}
+window.addEventListener('hashchange',route);
+document.addEventListener('keydown',e=>{
+  if(e.target.matches('input,textarea'))return;
+  const order=['start','how',...S.map((_,i)=>'step-'+(i+1)),'result'];
+  let h=location.hash.slice(1);if(!valid.has(h))h='start';const i=order.indexOf(h);
+  if(e.key==='ArrowRight'&&i<order.length-1)location.hash=order[i+1];
+  if(e.key==='ArrowLeft'&&i>0)location.hash=order[i-1];
+});
+render();route();
+
+/* мобильная панель действий и свайпы */
+if(document.body.classList.contains('mob')){
+  const bar=document.createElement('div');bar.id='bar';document.body.appendChild(bar);
+  const _route=route;
+  route=function(){
+    _route();
+    let h=location.hash.slice(1);if(!valid.has(h))h='start';
+    const sq=href=>`<a class="btn ghost sq" href="${href}" aria-label="Назад">←</a>`;
+    let html='';
+    if(h==='start')html=`<a class="btn" href="#how">Изучить <span class="ar">→</span></a>`;
+    else if(h==='how')html=sq('#start')+`<a class="btn" href="#step-1">Начать проверки <span class="ar">→</span></a>`;
+    else if(h==='result')html=sq('#step-'+N)+`<a class="btn" href="${TG}" target="_blank" rel="noopener">Написать нам <span class="ar">→</span></a>`;
+    else{const n=+h.split('-')[1];
+      html=sq(n>1?'#step-'+(n-1):'#how')+`<a class="btn" href="${n<N?'#step-'+(n+1):'#result'}">${n<N?'Проверка '+(n+1):'Результат'} <span class="ar">→</span></a>`}
+    bar.innerHTML='<div class="in">'+html+'</div>';
+  };
+  window.removeEventListener('hashchange',_route);window.addEventListener('hashchange',route);route();
+  let sx=0,sy=0;
+  document.addEventListener('touchstart',e=>{sx=e.touches[0].clientX;sy=e.touches[0].clientY},{passive:true});
+  document.addEventListener('touchend',e=>{
+    const dx=e.changedTouches[0].clientX-sx,dy=e.changedTouches[0].clientY-sy;
+    if(Math.abs(dx)<80||Math.abs(dy)>45)return;
+    const order=['start','how',...S.map((_,i)=>'step-'+(i+1)),'result'];
+    let h=location.hash.slice(1);if(!valid.has(h))h='start';const i=order.indexOf(h);
+    if(dx<0&&i<order.length-1)location.hash=order[i+1];
+    if(dx>0&&i>0)location.hash=order[i-1];
+  },{passive:true});
+}
+</script>
+</body>
+</html>
